@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace 'com.PratikFagadiya.smoothanimationbottombar'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 24
@@ -61,7 +61,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.PratikFagadiya'
                 artifactId = 'SmoothAnimationBottomBar'
-                version = '1.1.0'
+                version = '1.1.1'
             }
         }
     }
