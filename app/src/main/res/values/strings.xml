@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimatedBottomNavigation</string>
+
+    <!--Bottom Navigation Names-->
+    <string name="home">Home</string>
+    <string name="trending">Trending</string>
+    <string name="feed">Feed</string>
+    <string name="profile">Profile</string>
+
+</resources>
