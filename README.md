@@ -11,6 +11,26 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
  <br />
  <br />
 
+## Getting Started 🚀
+To get started with the AnimatedSmoothBottomNavigation-JetpackCompose library, You can check [MainActivity.kt](https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/tree/master/app/src/main/java/com/pratikfagadiya/animatedbottomnavigation/MainActivity.kt) directory for demo. Let's have look on basic steps of implementation.
+
+Add JitPack repository to your project's `settings.gradle` file.
+```groovy  
+dependencyResolutionManagement {  
+ // ...  
+ repositories {
+    // ...
+    maven { url "https://www.jitpack.io" }
+ }}  
+```
+
+Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https://jitpack.io/v/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose.svg)](https://jitpack.io/#PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose)
+```gradle  
+ dependencies {
+     implementation 'com.github.PratikFagadiya:AnimatedSmoothBottomNavigation-JetpackCompose:<LATEST_VERSION>'
+ }
+```  
+ <br />
 
 ## Acknowledgments
 
@@ -25,8 +45,8 @@ Thank you **İbrahim Süren**, for sharing your creative work with the community
 
 ## Donate
 
-If you found this library helpful or you learned something from the source code and want to thank  
-me, consider buying me a cup of :coffee:
+If you found this library helpful or you learned something from the source code and want to thank  me, 
+consider buying me a cup of :coffee:
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/pratikf)  
 <br />
@@ -43,7 +63,7 @@ me, consider buying me a cup of :coffee:
 ## Contribution 🤝
 
 - If you would like to contribute you're most welcome! 💛    
-  See [Contributing Guidelines](https://github.com/PratikFagadiya/FancyJetpackComposeDialog/blob/master/CONTRIBUTING.md).    
+  See [Contributing Guidelines](https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/blob/master/CONTRIBUTING.md).    
   <br />
 
 ## Connect with me
