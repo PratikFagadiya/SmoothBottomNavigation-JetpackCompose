@@ -14,10 +14,10 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
 
 ## Acknowledgments
 
-This Jetpack Compose Smooth Animation Bottom Navigation library 🚀 was inspired by the [Original XML-Based Bottom Navigation Library](https://github.com/ibrahimsn98/SmoothBottomBar) created by [**İbrahim Süren**
+This Jetpack Compose Smooth Animation Bottom Navigation library 🚀 was inspired by the [XML-Based Bottom Navigation Library](https://github.com/ibrahimsn98/SmoothBottomBar) created by [**İbrahim Süren**
 ](https://github.com/ibrahimsn98). I would like to express our gratitude for their work, which served as the foundation for this Jetpack Compose library adaptation. 👏
 
-- Original Library: [Original XML-Based Bottom Navigation Library](https://github.com/ibrahimsn98/SmoothBottomBar)
+- XML Based Library: [XML-Based Bottom Navigation Library](https://github.com/ibrahimsn98/SmoothBottomBar)
 
 Thank you **İbrahim Süren**, for sharing your creative work with the community, which has allowed me to build upon it and create this Jetpack Compose version. 🙌
  <br />
