@@ -11,6 +11,9 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
  <br />
  <br />
 
+## GIF Preview 👀
+<img src="https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/blob/master/art/animatedsmoothbarjetpackcompose.gif" width="350" alt="Animated GIF Preview"/>
+
 ## Getting Started 🚀
 To get started with the AnimatedSmoothBottomNavigation-JetpackCompose library, You can check [MainActivity.kt](https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/tree/master/app/src/main/java/com/pratikfagadiya/animatedbottomnavigation/MainActivity.kt) directory for demo. Let's have look on basic steps of implementation.
 
