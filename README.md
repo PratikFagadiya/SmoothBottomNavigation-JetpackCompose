@@ -13,9 +13,10 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
 
 ## GIF Preview 👀
 <img src="https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/blob/master/art/animatedsmoothbarjetpackcompose.gif" width="350" alt="Animated GIF Preview"/>
-
+ <br />
+ 
 ## Getting Started 🚀
-To get started with the AnimatedSmoothBottomNavigation-JetpackCompose library, You can check [MainActivity.kt](https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/tree/master/app/src/main/java/com/pratikfagadiya/animatedbottomnavigation/MainActivity.kt) directory for demo. Let's have look on basic steps of implementation.
+To get started with the AnimatedSmoothBottomNavigation-JetpackCompose library.
 
 Add JitPack repository to your project's `settings.gradle` file.
 ```groovy  
@@ -33,6 +34,28 @@ Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https
      implementation 'com.github.PratikFagadiya:AnimatedSmoothBottomNavigation-JetpackCompose:<LATEST_VERSION>'
  }
 ```  
+### How to use 🚀
+
+Create list of bottom navigation Item with `SmoothAnimationBottomBarScreens`
+```kotlin
+val bottomNavigationItems = listOf(
+    SmoothAnimationBottomBarScreens(
+        Screens.HomeScreen.route,
+        stringResource(id = R.string.home),
+        R.drawable.baseline_home_24
+    ), SmoothAnimationBottomBarScreens(
+        Screens.TrendingScreen.route,
+        stringResource(id = R.string.trending),
+        R.drawable.baseline_trending_up_24
+    ), SmoothAnimationBottomBarScreens(
+        Screens.FeedScreen.route,
+        stringResource(id = R.string.feed),
+        R.drawable.baseline_feed_24
+    )
+)
+```
+ 
+You can check [MainActivity.kt](https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/tree/master/app/src/main/java/com/pratikfagadiya/animatedbottomnavigation/MainActivity.kt) directory for demo. ⭐
  <br />
 
 ## Acknowledgments
