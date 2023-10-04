@@ -33,7 +33,9 @@ Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https
  dependencies {
      implementation 'com.github.PratikFagadiya:AnimatedSmoothBottomNavigation-JetpackCompose:<LATEST_VERSION>'
  }
-```  
+```
+<br />
+
 ### How to use 🚀
 
 Create list of bottom navigation Item with `SmoothAnimationBottomBarScreens`
@@ -53,10 +55,65 @@ val bottomNavigationItems = listOf(
         R.drawable.baseline_feed_24
     )
 )
+
+val navController = rememberNavController()
+val currentIndex = rememberSaveable {
+    mutableIntStateOf(0)
+}
+
+Scaffold(bottomBar = {
+    SmoothAnimationBottomBar(navController, 
+        bottomNavigationItems,
+        initialIndex = currentIndex,
+        bottomBarProperties = BottomBarProperties(),
+        onSelectItem = {
+            Log.i("SELECTED_ITEM", "onCreate: Selected Item ${it.name}")
+        })
+}) { innerPadding ->
+    Modifier.padding(innerPadding)
+    ScreenNavigationConfiguration(navController, currentIndex)
+}
+
 ```
  
 You can check [MainActivity.kt](https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/tree/master/app/src/main/java/com/pratikfagadiya/animatedbottomnavigation/MainActivity.kt) directory for demo. ⭐
  <br />
+<br />
+
+ ## Customisation 🎨
+
+With our customizable library, you have the power to customizable library based on your requirement
+you can see how you can customize various properties of the BottomBarProperties object to fit your UI design preferences.
+
+Feel free to adjust the  `colors`, `sizes`, `font` and other parameters to match your specific requirements.
+
+```kotlin
+
+Scaffold(bottomBar = {
+                SmoothAnimationBottomBar(navController,
+                    bottomNavigationItems,
+                    initialIndex = currentIndex,
+                    bottomBarProperties = BottomBarProperties(
+                        backgroundColor = Color.Blue,     // Change the background color 
+                        indicatorColor = Color.White.copy(alpha = 0.2F),  // Change the indicator color with Alpha
+                        iconTintColor = Color.BlueTint, // Change the icon tint color
+                        iconTintActiveColor = Color.White, // Change the active icon tint color
+                        textActiveColor = Color.White, // Change the active text color
+                        cornerRadius = 18.dp,  // Increase the corner radius
+                        fontFamily = JostFont,  // Change the font family
+                        fontWeight = FontWeight.Medium,  // Change the font weight
+                        fontSize = 16.sp // Increase or Decrease the font size
+                    ),
+                    onSelectItem = {
+                        Log.i("SMOOTH_ANIMATION_BAR", "onCreate: Selected Item ${it.name}")
+                    })
+            }) { innerPadding ->
+                Modifier.padding(innerPadding)
+                ScreenNavigationConfiguration(navController, currentIndex)
+            }
+
+```
+<br />
 
 ## Acknowledgments
 
