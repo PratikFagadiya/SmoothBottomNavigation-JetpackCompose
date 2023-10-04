@@ -8,7 +8,6 @@ A beautiful and simple bottom navigation with custom smooth slide animation libr
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-a503fc?logo=kotlin&logoColor=white&style=for-the-badge"/></a>  
   <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/></a>  
     <a href="https://github.com/PratikFagadiya/SmoothBottomNavigation-JetpackCompose"><img src="https://img.shields.io/github/stars/PratikFagadiya/SmoothBottomNavigation-JetpackCompose?color=ffff00&style=for-the-badge"/>  
-  <a href="https://hits.sh/github.com/PratikFagadiya/SmoothBottomNavigation-JetpackCompose/"><img alt="Hits" src="https://hits.sh/github.com/PratikFagadiya/SmoothBottomNavigation-JetpackCompose.svg?style=for-the-badge&label=Views&extraCount=10&color=54856b"/></a>  
   <a href="https://github.com/PratikFagadiya/AnimatedSmoothBottomNavigation-JetpackCompose/releases/latest"><img src="https://img.shields.io/github/v/release/PratikFagadiya/SmoothBottomNavigation-JetpackCompose?color=purple&include_prereleases&logo=github&style=for-the-badge"/>  
 </p>  
 
