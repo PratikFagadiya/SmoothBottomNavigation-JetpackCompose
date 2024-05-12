@@ -135,11 +135,20 @@ fun SmoothAnimationBottomBar(
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.Center) {
 
-                            Icon(
-                                painter = painterResource(id = smoothAnimationBottomBarScreens.icon),
-                                contentDescription = "",
-                                tint = if (initialIndex.value == index) bottomBarProperties.iconTintActiveColor else bottomBarProperties.iconTintColor
-                            )
+                            val tint = if (index == initialIndex.value) bottomBarProperties.iconTintActiveColor else bottomBarProperties.iconTintColor
+                            if (smoothAnimationBottomBarScreens.imageVector != null) {
+                                Icon(
+                                    imageVector = smoothAnimationBottomBarScreens.imageVector,
+                                    contentDescription = smoothAnimationBottomBarScreens.name,
+                                    tint = tint
+                                )
+                            } else {
+                                Icon(
+                                    painter = painterResource(id = smoothAnimationBottomBarScreens.icon),
+                                    contentDescription = smoothAnimationBottomBarScreens.name,
+                                    tint = tint
+                                )
+                            }
 
                             AnimatedVisibility(visible = index == initialIndex.value) {
 
