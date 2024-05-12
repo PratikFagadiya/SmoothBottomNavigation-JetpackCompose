@@ -47,12 +47,15 @@ Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https
 ### How to use 🚀
 
 Create list of bottom navigation Item with `SmoothAnimationBottomBarScreens`
+
 ```kotlin
+import javax.swing.Icon
+
 val bottomNavigationItems = listOf(
     SmoothAnimationBottomBarScreens(
         Screens.HomeScreen.route,
         stringResource(id = R.string.home),
-        R.drawable.baseline_home_24
+        Icons.Default.Home
     ), SmoothAnimationBottomBarScreens(
         Screens.TrendingScreen.route,
         stringResource(id = R.string.trending),
@@ -70,7 +73,7 @@ val currentIndex = rememberSaveable {
 }
 
 Scaffold(bottomBar = {
-    SmoothAnimationBottomBar(navController, 
+    SmoothAnimationBottomBar(navController,
         bottomNavigationItems,
         initialIndex = currentIndex,
         bottomBarProperties = BottomBarProperties(),
