@@ -49,8 +49,6 @@ Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https
 Create list of bottom navigation Item with `SmoothAnimationBottomBarScreens`
 
 ```kotlin
-import javax.swing.Icon
-
 val bottomNavigationItems = listOf(
     SmoothAnimationBottomBarScreens(
         Screens.HomeScreen.route,
